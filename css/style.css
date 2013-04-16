@@ -1,0 +1,535 @@
+body{
+
+	background:#e75524;
+	margin:0;
+	position:relative;
+	padding:0;
+}
+
+.main{
+
+	width:1080px;
+	background:#fff url("../img/bgGirl.png") no-repeat top left;
+	height:640px;
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-540px;
+}
+
+.womanLogo{
+
+	position:relative;
+	left:900px;
+	top:30px;
+}
+
+.bigRed{
+	text-transform: uppercase;
+	position:relative;
+	top:50px; 
+	left:450px;
+	font-size:69px;
+	color:#e75524;
+	margin:0;
+}
+
+.descr{
+	position: relative;
+	text-align: right;
+	font-size:14px;
+	text-transform: uppercase;
+	margin:0;
+	top:50px; 
+	right:30px;
+}
+
+.ok{
+	float:right;
+	margin-top: 60px;
+	margin-right:30px;
+}
+
+.vk, .fb, .twitter{
+	float:right;
+	margin-top:60px;
+	margin-right:5px;
+}
+
+.molek{
+	margin-left:400px;
+	margin-top:30px;
+}
+
+.howTo{
+	width:200px;
+	height:200px;
+	border:1px solid red;
+	border-radius:100px;
+	position:relative;
+	top:-280px;
+	left:25px;
+}
+
+.quizNav{
+	width:130px;
+	height:130px;
+	border:1px solid green;
+	border-radius:100px;
+	position:relative;
+	top:-440px;
+	left:290px;
+}
+
+.onlineConsNav{
+	width:105px;
+	height:105px;
+	border:1px solid blue;
+	border-radius:100px;
+	position:relative;
+	top:-455px;
+	left:220px;
+}
+
+.ducrayLogo{
+	margin-left:70px;
+}
+
+.smallRed{
+	text-transform: uppercase;
+	position:relative;
+	top:-85px; 
+	left:850px;
+	font-size:41px;
+	color:#e75524;
+	margin:0;
+}
+
+.bottom{
+	top:-85px;
+}
+
+/* index2.html */
+
+.head{
+
+	width:980px;
+	background:#fff;
+	min-height:310px;
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-490px;
+}
+
+.naoptidRight{
+	position:relative;
+	left:1000px; 
+	top:-65px; 
+}
+
+.content{
+	min-height:1000px;
+	background:#f3f3f3;
+	top:-835px;
+	padding-bottom:50px;
+	position:relative;
+	margin-bottom:-835px;
+}
+
+.head .womanLogo{
+	left:635px;
+	top:20px;
+}
+
+.head .bigRed{
+	font-size:60px;
+	left:430px;
+	top:20px;
+}
+
+.molekSmall{
+	margin-top:-130px; 
+	margin-left:10px;
+}
+
+.head .descr{
+	top:20px;
+	font-size:15px;
+}
+
+.head .smallRed{
+	left:740px;
+	top:-95px;
+	width:100px;
+}
+
+.head .bottom{
+	top:-90px;
+}
+
+.onlineCons{
+	position:relative;
+	text-transform: uppercase;
+	margin:0;
+	top:-135px;
+	left:310px;
+}
+
+.onlineCons a{
+	font-size:16px;
+	color:#E75524;
+}
+
+.head .ok, .head .vk, .head .fb, .head .twitter{
+	margin-top:30px;
+}
+
+.ducray2Logo{
+	position:relative;
+	left:220px;
+	top:20px;
+}
+
+.product{
+	text-transform: uppercase;
+	font-size: 44px;
+	color:#424243;
+	padding-top:20px;
+	margin-left:30px;
+	margin-bottom:20px;
+}
+
+.productDescr, .productDescr2, .productDescr3{
+	color:#424243;
+	font-size:18px;
+	font-family: Arial, sans-serif;
+	margin:20px 30px;
+	position:absolute;
+}
+
+.productDescr3{
+	position:relative;
+}
+
+.productDescr2{
+	top:330px;
+}
+
+.productDescr span{
+	color:#E75524;
+}
+
+.girlLeft{
+	position:absolute;
+	left:35px;
+}
+
+.neoptidDescr{
+	position:absolute;
+	left:275px;
+	font-size:18px;
+	font-family: Arial, sans-serif;
+	top:0;
+}
+
+.round1, .round2, .round3{
+	position:absolute;
+	left:300px;
+	top:190px;
+}
+
+.round2{
+	left:400px;
+}
+
+.round3{
+	left:500px;
+}
+
+.neoptid{
+	position:absolute;
+	right:30px;
+	top:0;
+}
+
+.comments{
+	color:#e75524;
+	margin-left: 150px;
+	font-size:26px;
+}
+
+.commentAutor{
+	color:#0f0f0f;
+	font-size:18px;
+	font-weight:bold;
+	margin:25px 150px 0 150px;
+}
+
+.commentAutor .commentDate{
+	font-weight:normal;
+	color:#424243;
+	font-size:16px;
+}
+
+.comment{
+	font-size:16px;
+	color:#424243;
+	margin:0 150px 25px 150px;
+}
+
+.pageCount{
+	color:#292929;
+	text-align:center;
+}
+
+.pageCount a{
+	color:#292929;
+	font-size: 17px;
+	text-decoration:underline;
+	margin: 0 4px;
+}
+
+.pageCount a.activePage{
+	color:#e75524;
+}
+
+.input{
+	font-size: 18px;
+	padding:4px;
+	margin:10px 150px;
+	color:#424243;
+}
+
+.input textarea{
+	font-size:16px;
+	border:none;
+}
+
+.tema{
+	width:270px;
+	font-size:16px;
+	border:none;
+}
+
+.checkbox{
+	font-size:14px;
+	margin:10px 150px;
+	color:#313131;
+}
+
+.checkbox span{
+	position:relative;
+	top:5px; 
+}
+
+.sendButton{
+	margin:10px 150px;
+}
+
+.sendButton input{
+	background-color: #E75524;
+	color:#fff;
+	padding:5px 20px 7px 20px;
+	font-size:17px;
+	border:none;
+}
+
+.copyright{
+	font-family: Arial, sans-serif;
+	color:#4b4b4a;
+	font-size:18px;
+	text-align: center;
+	margin:40px 0 5px 0;
+}
+
+/* index3.html */
+
+.quizImg{
+	margin-top:-30px;
+	margin-left:280px; 
+}
+
+.quizRules{
+	text-transform:uppercase;
+	color:#e75524;
+	font-size:25px;
+	text-align: center;
+	margin-bottom:0;
+}
+
+.quiz{
+	margin-top:7px;
+}
+
+.quizRules.full{
+	text-decoration: underline;
+	margin-top:150px;
+}
+
+.quizButton{
+	text-align: center;
+}
+
+.quizButton input{
+	background-color: #E75524;
+	color:#fff;
+	padding:5px 20px 7px 20px;
+	font-size:22px;
+	border:none;
+}
+
+/* index4.html */
+
+.autorise{
+	font-size:18px;
+	margin-top:40px;
+	text-align:center;
+}
+
+.loginBlock{
+	text-align:center;
+}
+
+.autorise a{
+	color:#E75524;
+}
+
+.registration{
+	margin:0 180px;
+	min-height: 200px;
+}
+
+.login, .age, .pass{
+	font-size:17px;
+	padding:6px;
+	border:none;
+	width:160px;
+	margin-right:10px;
+}
+
+.age{
+	width:80px;
+}
+
+.loginButton{
+	background-color: #E75524;
+	color:#fff;
+	padding:3px 20px 5px 20px;
+	font-size:22px;
+	border:none;
+}
+
+.regBlock{
+	text-align:center;
+	margin:5px;
+}
+
+.regBlock span, .acceptBlock span{
+	font-size:17px;
+}
+
+.acceptBlock{
+	text-align: left;
+	margin:5px 5px 5px 120px;
+}
+
+.acceptBlock span{
+	position:relative;
+	top:-8px;
+}
+
+.pass{
+	width:350px;
+}
+
+/* index5.html */
+
+.quizVariantsBlock{
+	position:absolute;
+	top:450px;
+	left:300px;
+}
+
+.quizVariants{
+	font-size: 18px;
+	margin-top:-5px;
+}
+
+.quizVariants input{
+	margin-right:10px;
+}
+
+.quizVariants span{
+	position: relative;
+	top:5px;
+}
+
+.quizButton2{
+	background-color: #E75524;
+	color:#fff;
+	padding:5px 12px 7px 12px;
+	font-size:18px;
+	border:none;
+}
+
+
+/* index6.html */
+
+.consFoto{
+	float:left;
+	margin:-15px 50px 10px 35px; 
+}
+
+.consName{
+	text-transform: uppercase;
+	color:#010101;
+	font-size:22px;
+}
+
+.consultant{
+	width:340px;
+	margin-left:330px;
+	font-size:18px;
+	color:#424243;
+}
+
+.askButton input{
+	background-color: #E75524;
+	color:#fff;
+	padding:5px 12px 7px 12px;
+	font-size:18px;
+	border:none;
+}
+
+.ask{
+	margin-left:35px;
+	margin-top:0;
+	color:#e75524;
+	font-size: 26px;
+}
+
+.questions{
+	position:relative; 
+	min-height:50px; 
+	top:-5px; 
+	clear:both;
+	margin-bottom:80px;
+}
+
+.questions .commentAutor{
+	margin:25px 35px 0 35px;
+}
+
+.questions .comment{
+	margin:0 35px 25px 35px;
+}
+
+.questions .answer{
+	margin-left:180px;
+}
+
+.imgCenter{
+	display:block;
+	margin:auto;
+}
